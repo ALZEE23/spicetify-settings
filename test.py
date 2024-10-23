@@ -1,6 +1,4 @@
-def welcome(name):
-    # Prints out personalised hello statement.
-    print("Welcome to our codebase, " + str(name) + ". Let's get started!") 
-    
-# Testing your function with a name parameter (replace 'John Doe' as per requirement).  
-welcome('John Doe') # This will call the welcome() method and print out: Welcome to our codebase, John Doe. Let’s get started
+def welcome(name):     # Define new method 'welcome' that takes in one argument - name, which is a string type data ('str').  
+    print("Welcome to our codebase! " + str(name)  + ". Let’s get started.")      # Print out the message with personalized greeting. 
+      
+# Test your function by calling it and providing 'Samsul' as argument: welcome('John Doe')        This will call `welcome()` method, print - "Welcome to our codebase! Samsul". Let’s start  
